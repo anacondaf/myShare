@@ -131,7 +131,7 @@ function Homepage() {
 						<img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="img" />
 					</a>
 
-					<div className="hamburger-menu" onClick={toggleMenu}>
+					<div classname="hamburger-menu" onClick={toggleMenu}>
 						<div id="m1"></div>
 						<div id="m2"></div>
 						<div id="m3"></div>
