@@ -1,14 +1,20 @@
 {
   "name": "myshare",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.4.0",
+    "@metismenu/react": "^0.0.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
+    "react-transition-group": "^4.4.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
