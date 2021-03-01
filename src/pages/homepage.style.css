@@ -648,6 +648,15 @@ button:not(:disabled) {
 }
 
 @media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+
+	.page-wrapper {
+		padding-left: 45px;
+		padding-right: 30px;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -678,5 +687,11 @@ button:not(:disabled) {
 		position: relative;
 		width: 100%;
 		padding-right: 15px;
+	}
+}
+
+@media only screen and (min-width: 1400) {
+	.container {
+		max-width: 1400px;
 	}
 }

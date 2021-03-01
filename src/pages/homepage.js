@@ -28,7 +28,7 @@ function Homepage() {
 	var scrollPos = 0;
 
 	let handleScroll = (e) => {
-		if (768 <= window.innerWidth && window.innerHeight < 992) {
+		if (768 <= window.innerWidth && window.innerWidth < 992) {
 			// detects new state and compares it with the new one
 			if (document.body.getBoundingClientRect().top > scrollPos) {
 				topbarMobile.classList.add("hide-and-seek");
@@ -46,7 +46,7 @@ function Homepage() {
 		window.addEventListener("resize", function (e) {
 			if (
 				768 <= window.innerWidth &&
-				window.innerHeight < 992 &&
+				window.innerWidth < 992 &&
 				canChangeOpacity
 			) {
 				topbarMobile.classList.add("hide-and-seek");
@@ -55,6 +55,7 @@ function Homepage() {
 
 			if (window.innerWidth >= 992) {
 				setStart(true);
+				console.log(window.innerWidth);
 			} else setStart(false);
 		});
 	});
@@ -75,7 +76,6 @@ function Homepage() {
 		 *
 		 */
 		let HTMLCollection = e.target.parentNode.childNodes;
-		console.log(HTMLCollection.length);
 		let hamburgerChildren;
 
 		switch (HTMLCollection.length) {
@@ -116,9 +116,6 @@ function Homepage() {
 				});
 
 				break;
-
-			default:
-				console.log("Deo co default dau eslint");
 		}
 	};
 
@@ -131,7 +128,7 @@ function Homepage() {
 						<img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="img" />
 					</a>
 
-					<div classname="hamburger-menu" onClick={toggleMenu}>
+					<div className="hamburger-menu" onClick={toggleMenu}>
 						<div id="m1"></div>
 						<div id="m2"></div>
 						<div id="m3"></div>
