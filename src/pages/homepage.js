@@ -615,17 +615,17 @@ function Homepage() {
 
 										<div className="language-portion vi">
 											<p class="text-muted text-widget-des">
-												Chào anh em! Học code và lập trình mệt và rắc rối rồi
+												{`Chào anh em! Học code và lập trình mệt và rắc rối rồi
 												chán bỏ mẹ, không muốn đụng tới. Nhưng lỡ coi bộ phim
 												hacker thấy cũng ngầu ngầu nên quay lại code tiếp :v.
 												Rồi chưa kể tới lúc học DevOps, System Architect,
 												Networking, Linux Commands,... toàn là lý thuyết suôn và
-												khô khan ~~~ cơ mà tập làm quen đi :>> Mình hiểu điều đó
+												khô khan ~~~ cơ mà tập làm quen đi :> Mình hiểu điều đó
 												nên mở blog để chia sẻ những điều mình học(làm được) và
 												đọc được với cách hiểu của mình(bao dễ hiểu và bao xịn,
 												vì nó là cái mình tiếp thu bằng suy nghĩ của mình mà).
 												Anh em ủng hộ và góp ý qua email hay facebook cho mình
-												nha!(link bên dưới)
+												nha!(link bên dưới)`}
 											</p>
 											<img
 												src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1200px-Flag_of_Vietnam.svg.png"
